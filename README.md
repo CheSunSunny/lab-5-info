@@ -226,19 +226,28 @@ git push origin main
 ```
 
 ## Задание 1 - Автоматизация проверки формата файлов при коммите
-
+1. В директории .git/hooks нашла файл pre-commit.sample
 ![image](https://github.com/user-attachments/assets/4aebc1e5-2557-4bad-9651-7f919e8b8969)
 
+2. Отредактировала скрипт
 ![image](https://github.com/user-attachments/assets/74c562d1-dc50-4af4-9f65-2b9e1712b2c3)
 
 ![image](https://github.com/user-attachments/assets/bbb8e5cf-ba98-4b27-a8a1-1cc2c5c6ca11)
 
+3. Изменила название на pre-commit
 ![image](https://github.com/user-attachments/assets/42d5b8f6-e73a-4338-b416-b4fd8954a1aa)
 
+4. Создала текстовый файл с невалидным содержимым
 ![image](https://github.com/user-attachments/assets/cb82ca86-ec56-4943-8a54-a3aa6ed76c5e)
 
+5. Коммит выдает ошибку
 ![image](https://github.com/user-attachments/assets/053eb1d5-6bc6-491f-8be3-39e7d1dffb2a)
 
+6. Изменила текст файла
+
+7. Коммит удался
+
+   
 ## Задание 2 - Использование Git Flow в проекте
  
 Предположим, у вас есть задача на создание новой функциональности для вашего проекта с использованием Git Flow. Давайте рассмотрим конкретный пример. В примере важен не сам проект и его код (его тут вообще как такового нет), а принцип работы Git Flow.
