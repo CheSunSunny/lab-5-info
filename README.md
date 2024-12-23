@@ -227,19 +227,25 @@ git push origin main
 
 ## Задание 1 - Автоматизация проверки формата файлов при коммите
 1. В директории .git/hooks нашла файл pre-commit.sample, отредактировала, изменила название на pre-commit
+
 ![image](https://github.com/user-attachments/assets/cb82ca86-ec56-4943-8a54-a3aa6ed76c5e)
 ![image](https://github.com/user-attachments/assets/42d5b8f6-e73a-4338-b416-b4fd8954a1aa)
 
 3. Создала текстовый файл с невалидным содержимым
+
 ![image](https://github.com/user-attachments/assets/74c562d1-dc50-4af4-9f65-2b9e1712b2c3)
 
 4. Коммит выдает ошибку
+
 ![image](https://github.com/user-attachments/assets/bbb8e5cf-ba98-4b27-a8a1-1cc2c5c6ca11)
 
 7. Изменила текст файла
 
+![image](https://github.com/user-attachments/assets/33aa8199-4eca-47f3-850d-1428d8618eb8)
+
 8. Коммит удался
 
+![image](https://github.com/user-attachments/assets/bbb8e5cf-ba98-4b27-a8a1-1cc2c5c6ca11)
    
 ## Задание 2 - Использование Git Flow в проекте
  
